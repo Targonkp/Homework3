@@ -1,20 +1,20 @@
-const ClickEl = document.getElementById('button');
-const ConsumptionEl = document.getElementById('consumption');
-const FuelEl = document.getElementById('fuel');
-const ResultEl = document.getElementById('result');
+import {distance} from "./lib.js";
+
+const ClickE = document.getElementById('button');
+const ConsumptionE = document.getElementById('consumption');
+const FuelE = document.getElementById('fuel');
+const ResultE = document.getElementById('result');
 
 
-function Distance(consumption, fuel) {
-    const sum = 100/consumption*fuel;
-
-    ResultEl.textContent=sum;
-
+function clickOnbutton () {
+    const ConsumptionEl = parseInt(ConsumptionE.value);
+    const FuelEl = parseInt(FuelE.value);
+  return ResultE.textContent = distance(ConsumptionEl, FuelEl);
 
 }
-ClickEl.addEventListener(
+ClickE.addEventListener(
     'click',
-    function(){Distance (parseInt(ConsumptionEl.value), parseInt(FuelEl.value))}
-
+   clickOnbutton
 );
 
 
