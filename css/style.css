@@ -1,0 +1,56 @@
+html {
+    margin:0px;
+
+}
+
+body {
+
+    background-image: url(img/white-quad-wicker.png);
+}
+
+.main {
+
+    height: 700px;
+    margin: 100px;
+    border: 5px double #000080;
+    background: #F5DEB3;
+    padding-top:50px;
+    position: relative;
+
+}
+
+.main:hover
+{
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+.calculyator {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    border:5px ridge black;
+    padding:10px;
+    background: white;
+    padding: 50px 0 0 50px;
+
+}
+
+
+
+input {
+    height:18px;
+    width:200px;
+    color:green;
+    margin-top:5px;
+}
+
+button {
+    height: 40px;
+    width:200px;
+    background-color:red;
+
+}
