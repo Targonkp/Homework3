@@ -1,0 +1,1 @@
+# Homework about Distance [![Build Status](https://travis-ci.org/Targonkp/Homework3.svg?branch=master)](https://travis-ci.org/Targonkp/Homework3)
